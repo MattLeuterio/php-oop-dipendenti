@@ -1,0 +1,81 @@
+/* common */
+:root {
+    --bg-primary: #f8f9fa;
+    --text-color: rgb(19, 19, 19);   
+}
+
+body {
+    background-color: #cacaca;
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+}
+
+/* utilities */
+
+/* Header */
+
+
+.dropdown-menu {
+    min-width: 18rem;
+}
+
+/* App */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+/* navbar */
+.navbar .row {
+    height: 50px;
+}
+
+.navbar a.navbar-brand {
+    width: 130px;
+}
+
+.navbar a {
+    margin-right: 10px;
+}
+
+.navbar .row {
+    width: 100%;
+}
+
+/* Products */
+
+#computers {
+    display: block;
+}
+
+#software {
+    display: none; /* jQuery */
+}
+
+.main-section .card {
+    margin: 5px;
+}
+
+
+
+.product-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+.main-footer {
+    height: 50px;
+    padding: 10px;
+    background: var(--bg-primary);
+}
